@@ -5,6 +5,8 @@
 \usepackage{multicol}
 \usepackage{geometry}
 \usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{subcaption}
 \newcommand*{\airbnb}{\textit{Airbnb}}
 \newcommand*{\webscrapping}{\textit{web scrapping}}
 
@@ -24,20 +26,21 @@
     \maketitle
 
     \begin{abstract}
-       hola blabllbalbllalblalalblablbalbla
+       
     \end{abstract}
 
     \vspace{3mm}
 
+    \setlength{\columnsep}{0.88cm}
     \begin{multicols}{2}
     
         \section{Introducción}
 
             \paragraph*{}
             El sector turístico constituye una de las más importantes fuentes de ingresos en la economía española. Así es tambíen en las economías de Andalucía y
-            Sevilla. De tal manera ha sido desde el desarrollo turístico que experimentó el pais durante el tardofranquismo y las décadas posteriores. Sin embargo, 
+            Sevilla. De tal manera ha sido desde el desarrollo turístico que experimentó el país durante el tardofranquismo y las décadas posteriores. Sin embargo, 
             recientemente y gracias a la llegada de la revolución digital se han desarrollado nuevas y diversas formas de turismo. Otras se han visto favorecidas
-            por el poder de difusión y alcanze que las nuevas tecnologias nos ofrecen. Es el caso del alquiler vacacional, es decir, el alquiler de inmuebles a
+            por el poder de difusión y alcance que las nuevas tecnologías nos ofrecen. Es el caso del alquiler vacacional, es decir, el alquiler de inmuebles a
             corto o medio plazo con fines turísticos. La importancia que este sector tiene y que año tras año se va incrementando en el turismo nacional hace de 
             su estudio una labor interesante.
             
@@ -49,7 +52,7 @@
             \paragraph*{}
             Por otro lado, este rápido crecimiento del sector del alquiler turístico, tanto en España o como en el resto del mundo, se debe en gran parte al 
             desarrollo y crecimiento de empresas digitales tales como \textit{Airbnb, Booking} o \textit{Vrbo} que facilitan las relaciones entre
-            arrendador y arredatario al ofrecer plataformas donde anunciar y alquilar inmuebles de manera segura.
+            arrendador y arrendatario al ofrecer plataformas donde anunciar y alquilar inmuebles de manera segura.
 
             \paragraph*{}
             No obstante, a pesar del gran impacto que este negocio supone en el sector turístico general, y a su vez en la economía, el hecho de que se
@@ -103,8 +106,8 @@
             de manera explícita. \\
 
             \noindent
-            Sin embargo, existe una herramienta informática a través de la cual se puede obtener información, aunque con limitaciones, de manera legal.
-            Se trata del \textit{web scraping}. Esta herramienta permite al que la usa obtener grandes cantidades de datos expuestos en una página web.
+            Sin embargo, existe una técnica informática a través de la cual se puede obtener información, aunque con limitaciones, de manera legal.
+            Se trata del \textit{web scraping}. Esta técnica permite al que la usa obtener grandes cantidades de datos expuestos en una página web.
             En nuestro caso, la página web en cuestión es \textit{Airbnb}. \footnote{Aunque se podían haber usado datos procedentes de diferentes webs, 
             se ha preferido usar solo los datos de una única web puesto que muchos arredadores publicitan sus anuncios en diferentes plataformas, lo que hubiese 
             ocasionado datos redundates. La elección de \airbnb \ se debe al gran volumen de datos que ofrece y a la importancia que tiene en el sector.} \\
@@ -126,13 +129,13 @@
             de Sevilla del año 2022 son de \cite{insideairbnb} que, a su vez, han sido complementados con otros datos resultantes de un \textit{scraping} personal.
             \footnote{Los datos que ofrecía \cite{insideairbnb} eran incompletos y no los suficientemente útiles para el estudio que el autor quería hacer. Por ello,
             se llevó a cabo un \textit{scraping} para aumentar la información de los anuncios de \airbnb \ que la web citada ponía a disposición. No se 
-            entrará en detalles sobre las técnicas informáticas utilizadas pero se pondrá a disposicón los ficheros de datos (CSV) que se obtuvieron.} 
+            entrará en detalles sobre las técnicas informáticas utilizadas pero se pondrá a disposición los ficheros de datos (CSV) que se obtuvieron.} 
 
             \paragraph*{\textbf{Fase 2: Limpieza de datos.}}
             Una vez obtenidos los \textit{datasets}, el proceso de limpieza y depuración de éstos, es decir, la clasificación de los datos, eliminación de 
             anomalias, obtención de nueva información a partir de la disponible y, en definitiva, todo lo necesario para posteriormente obtener estadísticas 
             y graficas fiables y valiosas; se ha realizado a través del lenguaje de programación \emph{Python} y, más concretamente, a través de una librería 
-            auxiliar de éste llamada \emph{Pandas}. \\
+            de éste llamada \emph{Pandas}. \\
             Sin entrar en detalles técnicos, los criterios bajo los cuales se ha realizado la limpieza de datos son:
 
             \begin{enumerate}
@@ -153,17 +156,18 @@
             \clearpage
             \paragraph*{\textbf{Fase 3: Obtención de estadísticas y gráficas.}}
             Finalmente, los resultados estadísticos así como todas las gráficas que figuran en 
-            el texto, a menos que se exprese lo contrario, se han obtenido nuevamente con \emph{Python}, concretamente con las librerías anexas \emph{Pandas, 
+            el texto, a menos que se exprese lo contrario, se han obtenido nuevamente con \emph{Python}, concretamente con las librerías \emph{Pandas, 
             Matplotlib} y \emph{Seaborn}. Una vez más, no se entrará en detalles técnicos, pero se dirá que se ha tratado de exponer los datos de la manera más 
             clara y leal posible a la información obtenida en el proceso de investigación. \\
 
             \noindent
-            Se ha de mencionar que como se asegura la obtención de las graficas, los datos y la limpieza de los mismos con técnicas infórmaticas realizadas por el 
+            Se ha de mencionar que como se asegura la obtención de las gráficas, los datos y la limpieza de los mismos con técnicas infórmaticas realizadas por el 
             propio autor, se ha puesto a disposición del lector un repositorio de código (\hyperlink{github}{[GitHub]}) en el \hyperlink{anexo}{Anexo} 
             del texto donde se puede constatar y consultar todo el proceso de investigación que se ha llevado a cabo desde la Fase 2 así como disponer de los conjuntos de datos que se mencionan. Se anima al lector a que consulte dicho repositorio, al menos para comprobar la veracidad de lo expuesto     anteriormente.
 
     \end{multicols}
-        
+    \setlength{\columnsep}{10pt}
+
     \section{Resultados y discusión}
 
     %       Resultados. Descripción e interpretación del conjunto de información procedente de la parte empírica.
@@ -171,41 +175,89 @@
     %       estudios realizados sobre la temática
 
         \subsection{Resultados relativos a la distribución de la oferta y a la actividad publicitaria}
-            
+
             \begin{figure}[h]
-                \centering
-                \includegraphics*[width = 15cm]{graphics/spainccaadensity.png}
+                \begin{center}
+                    \includegraphics*[width = 13cm]{graphics/spainccaadensity.png}
+                    \begin{flushright}
+                        \footnotesize{Fuente: elaboración propia a partir de \cite[(1)]{datahippo}}
+                    \end{flushright}
+                    \caption{Distribución porcentual de la oferta del alquiler turístico en España, según comunidades autónomas}
+                \end{center}
+            
+                Este gráfico muestra de que manera se distribuyen los anuncios de oferta de alquiler turístico, porcentualmente,
+                según comunidades autónomas del territorio español. Se observa que aquellas comunidades donde existe mayor oferta son
+                Cataluña, Andalucía, la Comunidad de Madrid y la Comunidad Valenciana. Obsérvese que Andalucía abarca un 23.19\% de toda la 
+                oferta de alquiler turístico del país. Además se muestra la gran diferencia porcentual que existe entre las comunidades 
+                con mayor y menor oferta, que son La Rioja, Extremadura, Navarra y Murcia y que no abarcan si quiera un 1\% de la oferta cada una.
+                De hecho, Cataluña y Andalucía poseen casi el 50\% de la oferta de alquiler turístico nacional.
+
+            \end{figure}
+
+            \begin{table}[ht]
+                \begin{center}
+                \begin{tabular}{| c | c | c | c | c | c | c | c |}
+                    \hline
+                    Barcelona  & 17.84 & Gipuzkoa & 1.52 & Cáceres & 0.51 & Álava & 0.27 \\ \hline
+                    Madrid & 12.05 & Cantabria & 1.39 & Huesca & 0.47 & Teruel & 0.25 \\ \hline
+                    Málaga  & 9.14 & Almería & 1.33 & Toledo & 0.43 & Lugo & 0.24 \\ \hline
+                    Islas Baleares & 6.17 & A Coruña & 1.22 & Salamanca & 0.42 & Valladolid & 0.22 \\ \hline
+                    Alicante & 5.71 & Pontevedra & 1.14 & Santa Cruz de Tenerife & 0.41 & Ciudad Real & 0.21 \\ \hline
+                    Las Palmas de Gran Canaria & 5.47 & Bizkaia  & 1.06 & Segovia & 0.37 & Guadalajara & 0.18 \\ \hline
+                    Valencia & 4.34 & Castellón & 1.05 & Zaragoza & 0.37 & Ourense & 0.17 \\ \hline
+                    Cádiz  & 4.31 & Córdoba  & 0.92 & Cuenca & 0.36  & Soria & 0.17 \\ \hline
+                    Girona  & 3.88 & Murcia & 0.87 & Badajoz & 0.33 & Albacete & 0.16 \\ \hline
+                    Sevilla &  3.72 & Navarra & 0.86 & Burgos & 0.32 & Palencia & 0.12 \\ \hline
+                    Granada  & 2.78 & Lleida & 0.72 & La Rioja & 0.32 & Zamora & 0.11 \\ \hline
+                    Tarragona & 2.73 & Huelva & 0.71 & Ávila & 0.3 & Ceuta & 0.02 \\ \hline
+                    Asturias & 1.53 & León & 0.55 & Jaén & 0.28 & Melilla & 0.005 \\ \hline
+                \end{tabular}
+                \begin{flushright}
+                    \footnotesize{Fuente: elaboración propia a partir de \cite[(1)]{datahippo}}
+                \end{flushright}
+                \caption{Distribución porcentual de la oferta del alquiler turístico en España, según provincias}
+                \end{center}
+                Estos otros datos muestran, al igual que los anteriores, la distribución de la oferta en España, pero por provincias. 
+                Destaca Barcelona con una notable mayoría procentual al ostentar un 17.84\% de la oferta del alquiler turístico nacional.
+                Le sigue Madrid y la provincia de Málaga, que se posiciona no solo como la provincia andaluza con mayor oferta sino también 
+                como la tercera de España.
+            \end{table}
+
+            \begin{figure}[ht]
+                \begin{center}
+                    \includegraphics*[width = 170mm]{graphics/sevilledensity.png}
+                    \begin{flushright}
+                        \footnotesize{Fuente: elaboración propia a partir de \cite[(2)]{datahippo} y \cite[(1)]{insideairbnb}}
+                    \end{flushright}
+                    \caption{Distribución porcentual de la oferta del alquiler turístico en la ciudad de Sevilla, según distritos}
+                \end{center}
+
+                En cuanto a la distribución en la ciudad de Sevilla según distritos, se observa una clara hegemonía del Casco Antiguo 
+                tanto en 2018 como en 2022. Aparte de este distrito, los que mayor oferta tienen son Triana, la Macarena y Nervión. 
+                El resto presenta un porcentaje notablemente menor. Si se comparan los datos de 2018 y 2022 se observa que el Casco Antiguo
+                ha aumentado el gran porcentaje que ya tenía de la oferta del alquiler turístico sevillano tras la pandemia del COVID, pasando
+                de un 58.31\%  a 72.16\%. Por último, en el barrio de la Palmera y Bellavista la oferta se ha reducido cerca de un 70\% desde 
+                2018. 
+
             \end{figure}
 
             \clearpage
-
-            \begin{figure}[h]              
-                \centering
-                \includegraphics[width = 184mm]{graphics/sevilledensity.png}
-
-            \end{figure}
-
             
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            \begin{figure}[ht]
+                \begin{subfigure}{0.5\textwidth}
+                    \includegraphics*[width = 10cm]{graphics/sevilledensity_map.jpeg}
+                    \begin{flushleft}
+                        \footnotesize{Fuente:}
+                    \end{flushleft}
+                \end{subfigure}
+                \begin{subfigure}{0.5\textwidth}
+                    \includegraphics[width = 7.95 cm, height = 6.46cm]{graphics/cap_sevilledensity_distribution_map.png}
+                    \begin{flushleft}
+                        \footnotesize{Fuente: }
+                    \end{flushleft}
+                \end{subfigure}
+                \caption{Mapas }
+            \end{figure}
 
 
     % \section{Conclusiones}
@@ -237,3 +289,12 @@
         \hypertarget{github}{[GitHub] \href{https://github.com/m7pantoja/TouristRental}{Repositorio de código sobre el proceso de investigación}}
 
 \end{document}
+
+
+
+
+
+
+% Consideraciones: 
+% - Me he descargado el pdf, y me salen algunos enlaces enmarcados en rojo, otros en verde y otros en azul. No se si es intencionado, no es que me disguste pero que sepas que se ve así 
+% (imagino que dependerá de si son enlaces internos o externos)

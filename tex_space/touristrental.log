@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.28)  10 APR 2023 17:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.28)  11 APR 2023 17:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -254,37 +254,69 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen161
 \Gin@req@width=\dimen162
+) (C:\Users\m7pan\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
+\wrapoverhang=\dimen163
+\WF@size=\dimen164
+\c@WF@wrappedlines=\count285
+\WF@box=\box95
+\WF@everypar=\toks21
+Package: wrapfig 2003/01/31  v 3.6
+) (C:\Users\m7pan\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2023/02/19 v1.6 Sub-captions (AR)
+ (C:\Users\m7pan\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/03/12 v3.6j Customizing captions (AR)
+ (C:\Users\m7pan\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
+\caption@tempdima=\dimen165
+\captionmargin=\dimen166
+\caption@leftmargin=\dimen167
+\caption@rightmargin=\dimen168
+\caption@width=\dimen169
+\caption@indent=\dimen170
+\caption@parindent=\dimen171
+\caption@hangindent=\dimen172
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count286
+\c@continuedfloat=\count287
+Package caption Info: hyperref package is loaded.
+Package caption Info: wrapfig package is loaded.
+)
+Package caption Info: New subtype `subfigure' on input line 239.
+\c@subfigure=\count288
+Package caption Info: New subtype `subtable' on input line 239.
+\c@subtable=\count289
 ) (C:\Users\m7pan\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count285
-\l__pdf_internal_box=\box95
+\l__color_backend_stack_int=\count290
+\l__pdf_internal_box=\box96
 ) (touristrental.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
 \openout1 = `touristrental.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Info: Redefining \. on input line 22.
-LaTeX Info: Redefining \% on input line 22.
-Package hyperref Info: Link coloring OFF on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Info: Redefining \. on input line 24.
+LaTeX Info: Redefining \% on input line 24.
+Package hyperref Info: Link coloring OFF on input line 24.
  (C:\Users\m7pan\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (C:\Users\m7pan\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
@@ -292,11 +324,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (C:\Users\m7pan\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count286
+\c@section@level=\count291
 )
-LaTeX Info: Redefining \ref on input line 22.
-LaTeX Info: Redefining \pageref on input line 22.
-LaTeX Info: Redefining \nameref on input line 22.
+LaTeX Info: Redefining \ref on input line 24.
+LaTeX Info: Redefining \pageref on input line 24.
+LaTeX Info: Redefining \nameref on input line 24.
  (touristrental.out) (touristrental.out)
 \@outlinefile=\write3
 \openout3 = `touristrental.out'.
@@ -338,79 +370,101 @@ LaTeX Info: Redefining \nameref on input line 22.
 
 (C:\Users\m7pan\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count287
-\scratchdimen=\dimen163
-\scratchbox=\box96
-\nofMPsegments=\count288
-\nofMParguments=\count289
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count290
-\MPscratchDim=\dimen164
-\MPnumerator=\count291
-\makeMPintoPDFobject=\count292
-\everyMPtoPDFconversion=\toks22
+\scratchcounter=\count292
+\scratchdimen=\dimen173
+\scratchbox=\box97
+\nofMPsegments=\count293
+\nofMParguments=\count294
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count295
+\MPscratchDim=\dimen174
+\MPnumerator=\count296
+\makeMPintoPDFobject=\count297
+\everyMPtoPDFconversion=\toks23
 ) (C:\Users\m7pan\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Users\m7pan\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 25.
+(Font)              <12> on input line 27.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 25.
+(Font)              <8> on input line 27.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 25.
+(Font)              <6> on input line 27.
  [1
 
 {C:/Users/m7pan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 97--104
+Underfull \hbox (badness 10000) in paragraph at lines 100--107
 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 108.
+(Font)              <7> on input line 111.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 108.
+(Font)              <5> on input line 111.
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--111
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 118--121
+Underfull \hbox (badness 10000) in paragraph at lines 108--114
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--148
+Underfull \hbox (badness 10000) in paragraph at lines 121--124
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--151
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 155--159
+Underfull \hbox (badness 10000) in paragraph at lines 158--162
 
  []
 
-<graphics/spainccaadensity.png, id=68, 766.7847pt x 589.0005pt>
+<graphics/spainccaadensity.png, id=67, 728.4816pt x 570.933pt>
 File: graphics/spainccaadensity.png Graphic file (type png)
 <use graphics/spainccaadensity.png>
-Package pdftex.def Info: graphics/spainccaadensity.png  used on input line 177.
-(pdftex.def)             Requested size: 426.79134pt x 327.83383pt.
-[3 <./graphics/spainccaadensity.png>]
-<graphics/sevilledensity.png, id=80, 1432.3914pt x 673.5564pt>
-File: graphics/sevilledensity.png Graphic file (type png)
-<use graphics/sevilledensity.png>
-Package pdftex.def Info: graphics/sevilledensity.png  used on input line 184.
-(pdftex.def)             Requested size: 523.5307pt x 246.18005pt.
+Package pdftex.def Info: graphics/spainccaadensity.png  used on input line 181.
+(pdftex.def)             Requested size: 369.88582pt x 289.89134pt.
 
-Overfull \hbox (39.83386pt too wide) in paragraph at lines 184--185
- [][] 
+Overfull \hbox (24.84575pt too wide) in paragraph at lines 199--215
+ [] 
  []
 
-[4
+<graphics/sevilledensity.png, id=72, 1436.7276pt x 576.7146pt>
+File: graphics/sevilledensity.png Graphic file (type png)
+<use graphics/sevilledensity.png>
+Package pdftex.def Info: graphics/sevilledensity.png  used on input line 228.
+(pdftex.def)             Requested size: 483.69684pt x 194.15317pt.
+[3 <./graphics/spainccaadensity.png>] [4 <./graphics/sevilledensity.png>]
+<graphics/sevilledensity_map.jpeg, id=94, 1477.52pt x 956.57375pt>
+File: graphics/sevilledensity_map.jpeg Graphic file (type jpg)
+<use graphics/sevilledensity_map.jpeg>
+Package pdftex.def Info: graphics/sevilledensity_map.jpeg  used on input line 248.
+(pdftex.def)             Requested size: 284.52756pt x 184.20305pt.
 
- <./graphics/sevilledensity.png>] [5
+Overfull \hbox (42.67914pt too wide) in paragraph at lines 248--249
+[][] 
+ []
+
+<graphics/cap_sevilledensity_distribution_map.png, id=96, 606.76688pt x 565.11125pt>
+File: graphics/cap_sevilledensity_distribution_map.png Graphic file (type png)
+<use graphics/cap_sevilledensity_distribution_map.png>
+Package pdftex.def Info: graphics/cap_sevilledensity_distribution_map.png  used on input line 254.
+(pdftex.def)             Requested size: 226.2038pt x 183.79694pt.
+
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 247--259
+[][] [] 
+ []
+
+[5
+
+ <./graphics/sevilledensity_map.jpeg> <./graphics/cap_sevilledensity_distribution_map.png>] [6
 
 ] (touristrental.aux
 LaTeX Info: Redefining \. on input line 25.
@@ -420,17 +474,17 @@ Package rerunfilecheck Info: File `touristrental.out' has not changed.
 (rerunfilecheck)             Checksum: D7B814292F982900A8C719E51A439A10;1248.
  ) 
 Here is how much of TeX's memory you used:
- 10130 strings out of 478582
- 163235 string characters out of 2844344
- 489651 words of memory out of 3000000
- 28166 multiletter control sequences out of 15000+600000
+ 11649 strings out of 478582
+ 193150 string characters out of 2844344
+ 514993 words of memory out of 3000000
+ 29664 multiletter control sequences out of 15000+600000
  474819 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,8n,63p,628b,502s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on touristrental.pdf (5 pages, 398079 bytes).
+ 67i,9n,77p,628b,502s stack positions out of 10000i,1000n,20000p,200000b,80000s
+<C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb>
+Output written on touristrental.pdf (6 pages, 1851546 bytes).
 PDF statistics:
- 166 PDF objects out of 1000 (max. 8388607)
- 39 named destinations out of 1000 (max. 500000)
- 57 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 181 PDF objects out of 1000 (max. 8388607)
+ 44 named destinations out of 1000 (max. 500000)
+ 79 words of extra memory for PDF output out of 10000 (max. 10000000)
 
