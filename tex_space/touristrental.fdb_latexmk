@@ -1,7 +1,9 @@
 # Fdb version 3
-["pdflatex"] 1681238825 "c:/Users/m7pan/Escritorio/Projects/Tourist_Rental/TouristRental/tex_space/touristrental.tex" "touristrental.pdf" "touristrental" 1681238827
+["pdflatex"] 1681411920 "c:/Users/m7pan/Escritorio/Projects/Tourist_Rental/TouristRental/tex_space/touristrental.tex" "touristrental.pdf" "touristrental" 1681411923
   "C:/Users/m7pan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1681225387 81088 29d6fa367ac022d1b69251d68c0742e6 ""
+  "C:/Users/m7pan/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1664546246 11548 363ea0ae913bfbe2c0057047d0a715a3 ""
   "C:/Users/m7pan/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1656368066 10246961 4597a415c3c1f9b8b6a8d76e1f5e925a ""
+  "C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/tcrm1000.tfm" 993062508 1436 c7f957a372ef2fbe93c0982f96625e12 ""
   "C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx9.tfm" 1136768653 1328 5442e22a7072966dbaf88ca900acf3f0 ""
@@ -83,14 +85,18 @@
   "C:/Users/m7pan/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1636713860 32262 2bb622a0aa56c4a7a5cbdfe9d122c15a ""
   "C:/Users/m7pan/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/m7pan/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044406800 26220 3701aebf80ccdef248c0c20dd062fea9 ""
-  "c:/Users/m7pan/Escritorio/Projects/Tourist_Rental/TouristRental/tex_space/touristrental.tex" 1681238822 22661 e0901487ffa770a02d3d6297a124389e ""
+  "c:/Users/m7pan/Escritorio/Projects/Tourist_Rental/TouristRental/tex_space/touristrental.tex" 1681411919 32728 2242528e0a0a15af7e90d0c70d98df32 ""
   "graphics/cap_sevilledensity_distribution_map.jpg" 1681233735 1178964 91317bd51298a4045fd90ef1d516390d ""
+  "graphics/seville_2018_price.png" 1681404986 59250 b87a6cef43347ece80bba32000523a4f ""
+  "graphics/seville_comparison_price.png" 1681409070 72996 9b5a81f9168aec84b2291ce7cad80ba0 ""
+  "graphics/seville_global_comparison_price.png" 1681410744 22844 f7a512b0e19e4471c2e6b1021100d1e8 ""
   "graphics/sevilledensity.png" 1681214481 179032 1ad3a6efdc0873112ef061626155e744 ""
   "graphics/sevilledensity_map.jpeg" 1681234119 227620 d59dcd6879db39b72eeb8a9b9b1b5926 ""
+  "graphics/spain_2018_price.png" 1681403570 81204 778e5056976a9c8cf7521761f95aa02b ""
   "graphics/spainccaadensity.png" 1681206552 107056 1decaa38ba8e0807a057a8af81bd0019 ""
-  "touristrental.aux" 1681238827 2869 9f160592de7759e90d6b95dd9d77b3af "pdflatex"
-  "touristrental.out" 1681238827 1591 731acfc383668df985028e7845a748cd "pdflatex"
-  "touristrental.tex" 1681238822 22661 e0901487ffa770a02d3d6297a124389e ""
+  "touristrental.aux" 1681411922 3890 93ec7eec18b974a62350387933ca699c "pdflatex"
+  "touristrental.out" 1681411922 1591 731acfc383668df985028e7845a748cd "pdflatex"
+  "touristrental.tex" 1681411919 32728 2242528e0a0a15af7e90d0c70d98df32 ""
   (generated)
   "touristrental.aux"
   "touristrental.log"

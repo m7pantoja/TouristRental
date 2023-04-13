@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.28)  11 APR 2023 20:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.28)  13 APR 2023 20:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -469,9 +469,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 268--274
 
 [5
 
- <./graphics/sevilledensity_map.jpeg> <./graphics/cap_sevilledensity_distribution_map.jpg>] [6
+ <./graphics/sevilledensity_map.jpeg> <./graphics/cap_sevilledensity_distribution_map.jpg>]
+<graphics/spain_2018_price.png, id=107, 766.062pt x 625.8582pt>
+File: graphics/spain_2018_price.png Graphic file (type png)
+<use graphics/spain_2018_price.png>
+Package pdftex.def Info: graphics/spain_2018_price.png  used on input line 287.
+(pdftex.def)             Requested size: 426.79134pt x 348.69238pt.
 
-] [7
+Underfull \hbox (badness 10000) in paragraph at lines 295--297
+
+ []
+
+[6
+
+] [7 <./graphics/spain_2018_price.png>]
+<graphics/seville_2018_price.png, id=123, 771.8436pt x 625.8582pt>
+File: graphics/seville_2018_price.png Graphic file (type png)
+<use graphics/seville_2018_price.png>
+Package pdftex.def Info: graphics/seville_2018_price.png  used on input line 312.
+(pdftex.def)             Requested size: 369.88582pt x 299.93103pt.
+ [8
+
+ <./graphics/seville_2018_price.png>]
+<graphics/seville_comparison_price.png, id=133, 771.8436pt x 654.0435pt>
+File: graphics/seville_comparison_price.png Graphic file (type png)
+<use graphics/seville_comparison_price.png>
+Package pdftex.def Info: graphics/seville_comparison_price.png  used on input line 339.
+(pdftex.def)             Requested size: 426.79134pt x 361.66113pt.
+ [9 <./graphics/seville_comparison_price.png>]
+<graphics/seville_global_comparison_price.png, id=144, 529.7391pt x 737.154pt>
+File: graphics/seville_global_comparison_price.png Graphic file (type png)
+<use graphics/seville_global_comparison_price.png>
+Package pdftex.def Info: graphics/seville_global_comparison_price.png  used on input line 369.
+(pdftex.def)             Requested size: 199.16928pt x 277.15195pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 377--378
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 379--380
+
+ []
+
+[10
+
+
+ <./graphics/seville_global_comparison_price.png>] [11
 
 ] (touristrental.aux
 LaTeX Info: Redefining \. on input line 25.
@@ -481,17 +525,17 @@ Package rerunfilecheck Info: File `touristrental.out' has not changed.
 (rerunfilecheck)             Checksum: 731ACFC383668DF985028E7845A748CD;1591.
  ) 
 Here is how much of TeX's memory you used:
- 11654 strings out of 478582
- 193197 string characters out of 2844344
- 514993 words of memory out of 3000000
- 29665 multiletter control sequences out of 15000+600000
- 474819 words of font info for 46 fonts, out of 8000000 for 9000
+ 11694 strings out of 478582
+ 194422 string characters out of 2844344
+ 514995 words of memory out of 3000000
+ 29692 multiletter control sequences out of 15000+600000
+ 475154 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,9n,77p,628b,502s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on touristrental.pdf (7 pages, 1797343 bytes).
+ 67i,9n,77p,1223b,502s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\m7pan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb>
+Output written on touristrental.pdf (11 pages, 1986709 bytes).
 PDF statistics:
- 192 PDF objects out of 1000 (max. 8388607)
- 47 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 241 PDF objects out of 1000 (max. 8388607)
+ 55 named destinations out of 1000 (max. 500000)
+ 125 words of extra memory for PDF output out of 10000 (max. 10000000)
 

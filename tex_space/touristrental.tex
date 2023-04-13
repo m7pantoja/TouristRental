@@ -171,9 +171,9 @@
 
     \section{Resultados y discusión}
 
-    %       Resultados. Descripción e interpretación del conjunto de información procedente de la parte empírica.
-    %       Discusión. Análisis de los resultados tomando como referencia las aportaciones derivadas de la revisión bibliográfica y otros
-    %       estudios realizados sobre la temática
+        %   Resultados. Descripción e interpretación del conjunto de información procedente de la parte empírica.
+        %   Discusión. Análisis de los resultados tomando como referencia las aportaciones derivadas de la revisión bibliográfica y otros
+        %   estudios realizados sobre la temática
 
         \subsection{Resultados relativos a la distribución de la oferta y a la actividad publicitaria}
 
@@ -281,13 +281,112 @@
         \clearpage
 
         \subsection{Resultados relativos al precio del alquiler turístico}
+            
+            \begin{figure}[ht]
+                \begin{flushleft}
+                    \includegraphics*[width = 15cm]{graphics/spain_2018_price.png}
+                    \begin{flushright}
+                        \footnotesize{Fuente: elaboración propia a partir de \cite[(1)]{datahippo} }
+                    \end{flushright}
+                    \caption{Precio por pernoctación en alquiler turístico en España, según comunidades autónomas}
+                \end{flushleft}
+
+
+                Como primer resultado de esta sección, se presenta un gráfico mostrando diferentes datos sobre el precio del alquiler turístico por noche en España, desagregado por comunidades autónomas, del año 2018. Antes de nada y para facilitar la compresión al lector, se explicará de forma escueta la interpretación de un gráfico como el que se muestra en pantalla: \textit{boxplot} o \textit{diagrama de cajas y bigotes}. Este tipo de gráfico muestra:
+                una caja que representa el recorrido intercuartílico de la distribución, una línea divisoria en la caja que señala la mediana y unas vallas o \textit{bigotes} que delimitan los valores adyacentes a la mediana. En caso de que los hubiera, también se representan los datos anómalos o \textit{outliers}. En este caso, se han suprimido los \textit{outliers} por la gran cantidad de datos de la distribución. A su vez, no se entrará en detalles sobre qué delimita que un valor sea considerado adyacente o no a la mediana. Por último nótese que se ha marcado la media de la distribución completa.\\
+
+                \noindent
+                Entrando en materia podemos resaltar que las Islas Baleares es la comunidad con mayor mediana y cuyo rango intercuartílico se encuentra a un mayor precio, esto es el 50\% de los datos centrados en la mediana. Obsérvese que además la mediana se encuentra por delante de la media y es ligeramente superior a 100. Es decir, el 50\% de los anuncios de alquiler turístico de las Islas Baleares tienen un precio superior a 100€. Por otro lado, véase que las ciudades autónomas Ceuta y Melilla así como las Islas Canarias, Murcia, La Rioja e incluso la Comunidad de Madrid situán la mayoría de sus anuncios por debajo de la media nacional. Debe tenerse en cuenta la densidad de los datos, pues, por ejemplo, la Comunidad de Madrid cuenta con un gran número de anuncios de alquiler, tanto de alto como de bajo precio, lo que hace que su distribución se vea afectada, mientras que comunidades como Navarra que cuentan con muy pocos anuncios (véase [***]) pueden tener una distribución con precios más elevados debido a la presencia de tan solo un reducido número de datos con valores altos.
+                Hablando de Andalucía, puede verse que la mayoría de sus datos se encuentran por debajo de la media nacional pero que también tiene un buen
+                número de anuncios que sobrepasan este límite. 
+                Por último destacan Navarra, el País Vasco, Cataluña y sobre todo las Islas Baleares como las comunidades que tienen anuncios con precios más elevados. En el caso de Baleares, existen datos, es decir, anuncios, que sobrepasan los 300€ por noche, y esto sin considerar los \textit{outliers}.
 
 
 
+            \end{figure}
 
+            \clearpage
 
+            \begin{figure}[ht]
+                \begin{flushleft}
+                    \includegraphics*[width = 13cm]{graphics/seville_2018_price.png}
+                    \begin{flushright}
+                        \footnotesize{Fuente: elaboración propia a partir de \cite[(2)]{datahippo} }
+                    \end{flushright}
+                    \caption{Precio por pernoctación en alquiler turístico en la ciudad de Sevilla, según distritos}
+                \end{flushleft}
 
+                Véase ahora este otro gráfico, del mismo estilo pero con datos relativos a la ciudad de Sevilla del año 2018.
+                Primero de todo se ve que la mayoría de datos se encuentran por debajo de la media. Esto podría indicar la presencia 
+                de un pequeño conjunto de datos con altos precios que afectan a la media de la distribución general.
+                Exceptuando el Casco Antiguo, Nervión, Triana y el distrito Sur, el resto de distritos tienen su rango intercuartílico de 
+                anuncios prácticamente por debajo de la media general. Este es un dato que muestra lo dispar que pueden ser los precios
+                en la ciudad de Sevilla según los distritos. También, como en el anterior caso, se debe tener en cuenta la densidad de anuncios
+                de cada zona (véase [***]). Por otro lugar, sin dudas el Casco Antiguo es el distrito líder en precios. Aun siendo el distrito con 
+                mayor densidad, también es el que presenta no solo un mayor conjunto de datos con elevado precio sino además el máximo rango de precios de 
+                ciudad. Sus \textit{bigotes} informan de anuncios en el distrito desde precios muy bajos hasta los más altos de la ciudad. 
+                A esta zona le sigue Nervión, que aun tiendo bastantes anuncios por encima de la media, sitúa su mediana en un precio bastante económico.
+                Por último, nótese que el distrito de La Palmera y Bellavista tiene casi la totalidad de sus datos por debajo de la media general. 
+                Esto informa que mientras que sería complicado encontrar un inmueble de alquiler turístico en el Casco Antiguo por debajo de la media, 
+                sería de mucha mayor facilidad encontrarlo por Bellavista o La Palmera. 
 
+            \end{figure}
+
+            \clearpage
+
+            \begin{figure}[ht]
+                \begin{flushleft}
+                    \includegraphics*[width = 15cm]{graphics/seville_comparison_price.png}
+                    \begin{flushright}
+                        \footnotesize{Fuente: elaboración propia a partir de \cite[(2)]{datahippo} y \cite[(1)]{insideairbnb}}
+                    \end{flushright}
+                    \caption{Comparación de los precios por pernoctación en la ciudad de Sevilla entre los años 2018 y 2022}
+                \end{flushleft}
+
+                Se presenta aquí uno de los gráficos y resultados más importantes de la investigación. Se trata de la comparación de los
+                precios por noche en alquiler turístico de la ciudad de Sevilla entre los años 2018 y 2022, antes y después de la pandemia.
+                A simple vista se ve un claro incremento en general y en particular en todos los distritos del precio del alquiler turístico.
+                La media, como se puede apreciar, se sitúa bastante más alta despues de la pandemia que anteriormente. Además, todos los distritos
+                posicionan en 2022 el conjunto del 50\% de sus anuncios entorno a la mediana en márgenes de precios mayores que en 2018.
+                La mediana también, en todos los casos, está por encima. Ahora bien, no todos los distritos han experimentado el mismo cambio.
+                Por ejemplo, los precios en el distrito del Cerro - Amate o en el distrito Norte a penas han cambiado, exceptuando la aparición 
+                de anuncios con precios más elevados y situados fuera de los recorridos intercuartílicos. Sin embargo, otros distritos, la mayoría,
+                como Nervión, el Casco Antiguo, Los Remedios o Triana han pasado a tener un conjunto de anuncios con precios bastante mayores. De hecho, 
+                la mediana de 2022 de muchos de ellos se sitúa por encima de todo el recorrido intercuartílico del año 2018.
+                No obstante, se ha eludido hasta ahora el distrito de La Palmera y Bellavista. Esta zona ha experimentado el cambio más notable de todos, 
+                superando no solo sus precios respecto a 2018 sino posicionándose como el distrito más caro en cuanto a alquiler turístico. Ha pasado de 
+                ser un distrito con la mayoría de sus datos por debajo de la media a ser el que tiene mayor rango de precios, llegando a tener
+                anuncios de 400€. Obsérvese que su tercer cuartil es también el mayor respecto al resto. Sin embargo muestra un rango 
+                intercuartílico muy amplio y una mediana situada cerca de la media general, reflejando la gran diversidad de precios que presenta
+                la zona.
+
+            \end{figure}
+
+            \clearpage
+            
+            \begin{wrapfigure}{l}{0.5\textwidth}
+                \begin{flushleft}
+                    \includegraphics*[width = 7cm]{graphics/seville_global_comparison_price.png}
+                    \begin{flushleft}
+                        \footnotesize{Fuente: elaboración propia a partir de \cite[(2)]{datahippo} y \cite[(1)]{insideairbnb}}
+                    \end{flushleft}
+                    \caption{Comparación global de los precios por pernoctación en la ciudad de Sevilla entre los años 2018 y 2022}
+                \end{flushleft}
+            \end{wrapfigure}
+
+            \ \\
+            
+            \ \\
+
+            \noindent
+            Por último, se ha de fijar la atención en la variación global de los precios del alquiler turístico en la ciudad de Sevilla 
+            entre los años 2018 y 2022. Lo más llamativo es que la media de 2022 se sitúa por encima de todo el recorrido intercuartílico de 
+            la distribución de 2018. Esto apunta a que la gran mayoría de anuncios del año 2018 sitúan su precio por debajo de la media de 2022. 
+            Pero es que, además, la media de 2018 se sitúa por debajo del 75\% de los datos de 2022, es decir, de los precios de los anuncios de este año.
+            Esto nos da una idea de la enorme variación de precios en alquiler turístico que ha sufrido la ciudad de Sevilla. Por último ha de notarse
+            la aparación de anuncios con precios mucho mayores a todos los existentes en 2018.
+            
+            hola
 
 
 
