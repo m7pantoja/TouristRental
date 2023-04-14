@@ -7,6 +7,7 @@
 \usepackage{graphicx}
 \usepackage{wrapfig}
 \usepackage{subcaption}
+\usepackage{lipsum}
 \newcommand*{\airbnb}{\textit{Airbnb}}
 \newcommand*{\webscrapping}{\textit{web scrapping}}
 
@@ -26,7 +27,12 @@
     \maketitle
 
     \begin{abstract}
-       
+
+        \hrule
+        \ \\
+   
+        \ \\
+        \hrule
     \end{abstract}
 
     \vspace{3mm}
@@ -58,9 +64,7 @@
             No obstante, a pesar del gran impacto que este negocio supone en el sector turístico general, y a su vez en la economía, el hecho de que se
             produzca en Internet y a través de empresas privadas dificulta la tarea de recopilación de datos estadísticos sobre el mismo. Por esta razón,
             existe una gran desinformación sobre el alquiler turístico y lo que supone para la economía frente a otros sectores del turismo.
-            \vfill\null
 
-            \columnbreak
             \paragraph*{}
             En este contexto, el presente trabajo se propone arrojar luz sobre los datos más importantes de alquiler turístico a nivel nacional, autónomico y 
             provincial; haciendo especial hincapié en la ciudad de Sevilla, donde se pretende hacer un estudio más pormenorizado. 
@@ -74,8 +78,8 @@
             
             \paragraph*{}
             En concreto, se pretende analizar y comparar los precios del alquiler turístico a nivel nacional, según comunidades 
-            autónomas; a nivel andaluz, según provincias; y en torno a la ciudad de Sevilla, según distritos. Se quiere también estudiar los diferentes tipos de 
-            inmueble que se ofrecen en alquiler turístico y la distribución de los anuncios de los arredadores, es decir, la densidad de éstos, por las áreas 
+            autónomas y en torno a la ciudad de Sevilla, según distritos. Se quiere también estudiar los diferentes tipos de 
+            inmueble que se ofrecen en alquiler turístico y la distribución de los anuncios de los arrendadores, es decir, la densidad de éstos, por las áreas 
             descritas anteriormente. Por último, se busca obtener resultados sobre la evolución del sector en cuestión tras la pandemia COVID, así como 
             comparar de que manera se ha visto afectado por esta situación frente a indicadores como el Índice de Precios al Consumo (IPC).
        
@@ -170,10 +174,6 @@
     \setlength{\columnsep}{10pt}
 
     \section{Resultados y discusión}
-
-        %   Resultados. Descripción e interpretación del conjunto de información procedente de la parte empírica.
-        %   Discusión. Análisis de los resultados tomando como referencia las aportaciones derivadas de la revisión bibliográfica y otros
-        %   estudios realizados sobre la temática
 
         \subsection{Resultados relativos a la distribución de la oferta y a la actividad publicitaria}
 
@@ -276,7 +276,8 @@
             Los datos de 2018 y 2022 nos muestran una clara disminución de la actividad publicitaria. Mientras que en 2018 se recogieron 
             7424 anuncios de inmuebles en alquiler turístico en la ciudad de Sevilla, en 2022 se redujo la cifra a 6576. Además, 
             antes de la pandemia COVID, eran 3909 anunciantes o \textit{hosts} los que abarcaban la oferta en Sevilla, frente a los 2717 que
-            se registraron en 2022. Es decir, ha disminuido el número de anunciantes.
+            se registraron en 2022. Es decir, ha disminuido el número de anunciantes. En términos porcentuales, los anuncios han disminuido 
+            en un 11\% y los anunciantes en un 30\%.
 
         \clearpage
 
@@ -290,22 +291,21 @@
                     \end{flushright}
                     \caption{Precio por pernoctación en alquiler turístico en España, según comunidades autónomas}
                 \end{flushleft}
-
-
-                Como primer resultado de esta sección, se presenta un gráfico mostrando diferentes datos sobre el precio del alquiler turístico por noche en España, desagregado por comunidades autónomas, del año 2018. Antes de nada y para facilitar la compresión al lector, se explicará de forma escueta la interpretación de un gráfico como el que se muestra en pantalla: \textit{boxplot} o \textit{diagrama de cajas y bigotes}. Este tipo de gráfico muestra:
-                una caja que representa el recorrido intercuartílico de la distribución, una línea divisoria en la caja que señala la mediana y unas vallas o \textit{bigotes} que delimitan los valores adyacentes a la mediana. En caso de que los hubiera, también se representan los datos anómalos o \textit{outliers}. En este caso, se han suprimido los \textit{outliers} por la gran cantidad de datos de la distribución. A su vez, no se entrará en detalles sobre qué delimita que un valor sea considerado adyacente o no a la mediana. Por último nótese que se ha marcado la media de la distribución completa.\\
-
-                \noindent
-                Entrando en materia podemos resaltar que las Islas Baleares es la comunidad con mayor mediana y cuyo rango intercuartílico se encuentra a un mayor precio, esto es el 50\% de los datos centrados en la mediana. Obsérvese que además la mediana se encuentra por delante de la media y es ligeramente superior a 100. Es decir, el 50\% de los anuncios de alquiler turístico de las Islas Baleares tienen un precio superior a 100€. Por otro lado, véase que las ciudades autónomas Ceuta y Melilla así como las Islas Canarias, Murcia, La Rioja e incluso la Comunidad de Madrid situán la mayoría de sus anuncios por debajo de la media nacional. Debe tenerse en cuenta la densidad de los datos, pues, por ejemplo, la Comunidad de Madrid cuenta con un gran número de anuncios de alquiler, tanto de alto como de bajo precio, lo que hace que su distribución se vea afectada, mientras que comunidades como Navarra que cuentan con muy pocos anuncios (véase [***]) pueden tener una distribución con precios más elevados debido a la presencia de tan solo un reducido número de datos con valores altos.
-                Hablando de Andalucía, puede verse que la mayoría de sus datos se encuentran por debajo de la media nacional pero que también tiene un buen
-                número de anuncios que sobrepasan este límite. 
-                Por último destacan Navarra, el País Vasco, Cataluña y sobre todo las Islas Baleares como las comunidades que tienen anuncios con precios más elevados. En el caso de Baleares, existen datos, es decir, anuncios, que sobrepasan los 300€ por noche, y esto sin considerar los \textit{outliers}.
-
-
-
             \end{figure}
 
+            Como primer resultado de esta sección, se presenta un gráfico mostrando diferentes datos sobre el precio del alquiler turístico por noche en España, desagregado por comunidades autónomas, del año 2018. Antes de nada y para facilitar la compresión al lector, se explicará de forma escueta la interpretación de un gráfico como el que se muestra en pantalla: \textit{boxplot} o \textit{diagrama de cajas y bigotes}. Este tipo de gráfico muestra:
+            una caja que representa el recorrido intercuartílico de la distribución, una línea divisoria en la caja que señala la mediana y unas vallas o \textit{bigotes} que delimitan los valores adyacentes a la mediana. En caso de que los hubiera, también se representan los datos anómalos o \textit{outliers}. En este caso, se han suprimido los \textit{outliers} por la gran cantidad de datos de la distribución. A su vez, no se entrará en detalles sobre qué delimita que un valor sea considerado adyacente o no a la mediana. Por último nótese que se ha marcado la media de la distribución completa.\\
+
+            \noindent
+            Entrando en materia podemos resaltar que las Islas Baleares es la comunidad con mayor mediana y cuyo rango intercuartílico se encuentra a un mayor precio, esto es el 50\% de los datos centrados en la mediana. Obsérvese que además la mediana se encuentra por delante de la media y es ligeramente superior a 100. Es decir, el 50\% de los anuncios de alquiler turístico de las Islas Baleares tienen un precio superior a 100€. Por otro lado, véase que las ciudades autónomas Ceuta y Melilla así como las Islas Canarias, Murcia, La Rioja e incluso la Comunidad de Madrid situán la mayoría de sus anuncios por debajo de la media nacional. 
+                
             \clearpage
+
+            \noindent
+            Debe tenerse en cuenta la densidad de los datos, pues, por ejemplo, la Comunidad de Madrid cuenta con un gran número de anuncios de alquiler, tanto de alto como de bajo precio, lo que hace que su distribución se vea afectada, mientras que comunidades como Navarra que cuentan con muy pocos anuncios (véase [***]) pueden tener una distribución con precios más elevados debido a la presencia de tan solo un reducido número de datos con valores altos.
+            Hablando de Andalucía, puede verse que la mayoría de sus datos se encuentran por debajo de la media nacional pero que también tiene un buen
+            número de anuncios que sobrepasan este límite. 
+            Por último destacan Navarra, el País Vasco, Cataluña y sobre todo las Islas Baleares como las comunidades que tienen anuncios con precios más elevados. En el caso de Baleares, existen datos, es decir, anuncios, que sobrepasan los 300€ por noche, y esto sin considerar los \textit{outliers}. \\
 
             \begin{figure}[ht]
                 \begin{flushleft}
@@ -366,7 +366,7 @@
             
             \begin{wrapfigure}{l}{0.5\textwidth}
                 \begin{flushleft}
-                    \includegraphics*[width = 7cm]{graphics/seville_global_comparison_price.png}
+                    \includegraphics*[width = 6cm]{graphics/seville_global_comparison_price.png}
                     \begin{flushleft}
                         \footnotesize{Fuente: elaboración propia a partir de \cite[(2)]{datahippo} y \cite[(1)]{insideairbnb}}
                     \end{flushleft}
@@ -374,62 +374,151 @@
                 \end{flushleft}
             \end{wrapfigure}
 
-            \ \\
-            
-            \ \\
-
-            \noindent
+            \paragraph*{}
             Por último, se ha de fijar la atención en la variación global de los precios del alquiler turístico en la ciudad de Sevilla 
             entre los años 2018 y 2022. Lo más llamativo es que la media de 2022 se sitúa por encima de todo el recorrido intercuartílico de 
             la distribución de 2018. Esto apunta a que la gran mayoría de anuncios del año 2018 sitúan su precio por debajo de la media de 2022. 
             Pero es que, además, la media de 2018 se sitúa por debajo del 75\% de los datos de 2022, es decir, de los precios de los anuncios de este año.
-            Esto nos da una idea de la enorme variación de precios en alquiler turístico que ha sufrido la ciudad de Sevilla. Por último ha de notarse
+            Esto nos da una idea de la enorme variación de precios en alquiler turístico que ha sufrido la ciudad de Sevilla. Nótese además
             la aparación de anuncios con precios mucho mayores a todos los existentes en 2018.
-            
-            hola
 
+            \begin{wrapfigure}{R}{0.5\textwidth}
+                \begin{flushright}
+                    \includegraphics*[width = 9cm]{graphics/pricerelativevariation.png}
+                    \begin{flushright}
+                        \footnotesize{Fuente: elaboración propia a partir de \cite[(2)]{datahippo} y \cite[(1)]{insideairbnb}}
+                    \end{flushright}
+                    \caption{Distribución de densidad de la variación relativa del precio del alquiler turístico entre 2018 y 2022 en la ciudad de Sevilla}
+                \end{flushright}
+            \end{wrapfigure}
 
+            \paragraph*{}
+            A pesar de estos resultados, la investigación queda instatisfecha sobre el estudio de la variación del precio en el sector. Se 
+            puede ir más allá.
+            Para un análisis más valioso sobre la variación de los precios del alquiler turístico en la ciudad de Sevilla, se han tomado de 
+            de los conjuntos de datos de 2018 y 2022 solo los anuncios coincidentes. Es decir, se han seleccionado los anuncios que estaban tanto
+            en 2018 como en 2022. Los mismos inmuebles, ofrecidos por el mismo anunciante, pero en años diferentes. El estudio de la variación
+            del precio sobre este subconjunto de datos es mucho más valioso al considererar exactamente el mismo servicio, pues son los mismos
+            inmuebles los que se ofertan.
 
+            \paragraph*{}
+            \ \\
 
+            Para obtener los resultados, previamente se han seleccionado las coincidencias, se han descartado 
+            anuncios aparentemente anómalos y se han truncado los datos para un análisis más riguroso. Posteriormente se ha calculado la variación
+            relativa del precio por noche de cada inmueble en 2022 respecto a su mismo anuncio en 2018. Los resultado pueden verse 
+            en la Figura 8. La gráfica nos da mucha información, como que las variaciones relativas máximas se acercan a 1.5 y las mínimas 
+            a -0.5 o que la mayoría de los anuncios han variado sus precios algo más del 0.1. Para simplificar, se ha marcado en rojo la media de 
+            la distribución: 0.2375. Es decir, la variación media de los precios del alquiler turístico entre los años 2018 y 2022 en la ciudad de Sevilla
+            es de 0.2375, o 23.75\%. Esto quiere decir que el precio ha aumentado en estos inmuebles un 23.75\%, una cifra considerablemente alta.
+            Si comparamos esta variación con otros indicadores como el IPC o el IPV (Índice de Precios de la Vivienda), se ve lo alta que es la subida de 
+            precios en este sector. Entre 2018 y 2022 el IPC varió un 12.16\% y el IPV un 19.46\% (véase \cite[(1) y (2)]{ine}), ambos por
+            debajo de la variación de precios del alquiler turístico en Sevilla.
 
+        \clearpage 
 
+        \subsection{Resultados relativos a los inmuebles ofertados en alquiler turístico}
 
+            \begin{figure}[ht]
+                \begin{center}
+                    \includegraphics*[width = 16cm]{graphics/tipoinmueble.png}
+                    \begin{flushright}
+                        \footnotesize{Fuente: elaboración propia a partir de \cite[(1) y (2)]{datahippo} y \cite[(1)]{insideairbnb}}
+                    \end{flushright}
+                    \caption{Tipos de inmuebles ofertados en alquiler turístico en la ciudad de Sevilla y España}
+                \end{center}
 
+                En este gráfico vemos los distintos inmuebles que los anunciantes ofrecen para el alquiler turístico. Por inmueble
+                completo se entiende aquel que es un hogar en sí mismo y en el que el inquilino tiene total privacidad. Habitación privada
+                corresponde al inmueble que ofrece una habitación propia para el inquilino y puede también incluir zonas 
+                comunes a otros inquilinos. Por lo general una habitación privada no incluye todo lo necesario de un hogar. Y por habitación 
+                compartida se entiende el mismo concepto que por habitación privada solo que ésta se comparte directamente con otros inquilinos. 
+                Mirando los gráficos, vemos que tanto en España como en Sevilla predomina el inmueble completo aun teniendo un gran porcentaje 
+                la habitación privada. Un resultado interesante es que la oferta de inmuebles completos en Sevilla ha ido en aumento desde 2018 
+                y hasta 2022, teniendo en ese año un porcentaje del 85.5.
 
+            \end{figure}
 
+            \clearpage
 
-    % \section{Conclusiones}
+    \setlength{\columnsep}{0.88cm}
+    \begin{multicols}{2}
 
-    \clearpage
+    \section{Conclusiones}
+
+        \paragraph*{}
+        Los resultados obtenidos informan sobre un sector escasamente estudiado. A pesar de la dificultad que entrañaba la investigación, se han podido
+        clarificar y exponer datos que permiten conocer parte del alquiler turístico a nivel nacional y en la ciudad de Sevilla. Además, se han
+        conseguido presentar resultados de manera desagregada, hecho singular. 
+        
+        \paragraph*{}
+        Por un lado se ha estudiado la distribución de la oferta del alquiler 
+        turístico, donde se ha constatado que Andalucía y Cataluña en España y el Casco Antiguo en Sevilla son los territorios con mayor porcentaje
+        de anuncios. Además se ha estudiado como ha variado esta distribución tras la pandemia en Sevilla y se ha visto el aumento del predominio del 
+        Casco Antiuo como principal zona ofertante. Asimismo, se ha visto qu elas provincias de Barcelona y Madrid destacan como líderes en oferta de alquiler turístico. Posteriormente, se han analizado los precios de los anuncios por distritos en la ciudad de Sevilla y por comunidades autónomas en España.
+        Las Islas Baleares han resultado la comunidad autónoma con mayores precio de alquiler turístico, al igual que el Casco Antiguo en Sevilla, que 
+        vuelve a destacar. Se llegó entonces a la parte más importante y valiosa de la investigación: la comparación de los precios del alquiler turístico
+        de la ciudad de Sevilla entre los años 2018 y 2022. Se arrojaron entonces resultados sorprendentes, como el cambio de papel que experimentó el distrito 
+        de la Palmera y Bellavista pasando de ser una zona rezagada a ser líder en precios. Además se confirmó la alta subida de precios que había sufrido la ciudad, tanto en general como en cada distrito. A su vez se estudió la variación de los precios después de la pandemia sobre un subconjunto de 
+        inmuebles de los que se tenían datos tanto de 2018 como de 2022. Aquí se terminó de fundamentar la alta variación de precios que se había dado en el 
+        sector, superando incluso las variaciones de índices como el IPC o el IPV. Por último se vieron los diferentes tipos de inmueble que se ofertaban
+        en el sector y el predominio del inmueble completo. 
+
+        \paragraph*{}
+        En definitiva, se han cumplido y abordado todos los objetivos que fueron propuestos. Más aún, se ha ofrecido iformación adicional que ha 
+        ido apareciendo a lo largo del proceso de investigación. 
+        
+        \paragraph*{}
+        Por otra parte, el presente trabajo tiene la intención de abrir camino en un sector,
+        como ya se ha dicho, poco estudiado. Este texto demuestra la posibilidad de estudiar el alquiler turístico de manera desagregada. De hecho es
+        tan solo un acercamiento a todo el estudio que se podría llegar a hacer con más medios y tiempo que de los que disponía el autor. Pero incluso 
+        de esta manera se han expuesto resultados interesantes y de gran ayuda para el estudio económico y estadístico de otros temas relacionados.
+        Por ello se incentiva a otros investigadores a abrir nuevas vías de estudio sobre el alquiler turístico. Por ejemplo, se podría 
+        plantear el estudio del alquiler turístico a nivel europeo de manera desagregada o el seguimiento de los datos del sector a nivel nacional durante 
+        un periodo considerable de años. 
+
+        \paragraph*{}
+        Estas propuestas no son ilusorias, pues empresas de alquiler turístico como \airbnb \ u otras son fuentes de datos lo suficientemente grandes
+        como para abarcar un proyecto de tal índole. Aunque con necesidad de trabajo, los datos están ahí, esperando a ser tratados para la obtención de 
+        resultados que ayuden a entender mejor este sector y a la economía en general.
+
     \begin{thebibliography}{20}
 
-        \bibitem[DataHippo]{datahippo} 
-            \ 
-            \begin{enumerate}
-                \item \href{https://datahippo.org/es/region/599216cb8a4655339b819813/}{Datos España 2017 - 2018}
-                \item \href{https://datahippo.org/es/region/599230af8a46554edf884651/}{Datos Sevilla 2017 - 2018}
-                \item \href{https://datahippo.org/media/regions/58612732-b2dc-433b-ab78-b8fbe5bbbb16/599216cb8a4655339b819813_airbnb.csv}{Datos España 2017 - 2018 (CSV)}
-                \item \href{https://datahippo.org/media/regions/7e3f7365-8ec0-42f1-a277-9b82743b8a39/599230af8a46554edf884651_airbnb.csv}{Datos Sevilla 2017 - 2018 (CSV)}
-            \end{enumerate}
-        
-        \bibitem[InsideAirbnb]{insideairbnb}
-            \
-            \begin{enumerate}
-                \item \href{http://insideairbnb.com/get-the-data/}{Datos Sevilla 2022}
-                \item \href{http://data.insideairbnb.com/spain/andaluc%C3%ADa/sevilla/2023-03-31/visualisations/listings.csv}{Datos Sevilla 2022 (CSV)}
-                \item \href{http://insideairbnb.com/sevilla}{Distribución de anuncios de alquiler turístico en la ciudad de Sevilla (Figura 3.2)}
-            \end{enumerate}
+            \bibitem[DataHippo]{datahippo} 
+                \ 
+                \begin{enumerate}
+                    \item \href{https://datahippo.org/es/region/599216cb8a4655339b819813/}{Datos España 2017 - 2018}
+                    \item \href{https://datahippo.org/es/region/599230af8a46554edf884651/}{Datos Sevilla 2017 - 2018}
+                    \item \href{https://datahippo.org/media/regions/58612732-b2dc-433b-ab78-b8fbe5bbbb16/599216cb8a4655339b819813_airbnb.csv}{Datos España 2017 - 2018 (CSV)}
+                    \item \href{https://datahippo.org/media/regions/7e3f7365-8ec0-42f1-a277-9b82743b8a39/599230af8a46554edf884651_airbnb.csv}{Datos Sevilla 2017 - 2018 (CSV)}
+                \end{enumerate}
+            
+            \bibitem[InsideAirbnb]{insideairbnb}
+                \
+                \begin{enumerate}
+                    \item \href{http://insideairbnb.com/get-the-data/}{Datos Sevilla 2022}
+                    \item \href{http://data.insideairbnb.com/spain/andaluc%C3%ADa/sevilla/2023-03-31/visualisations/listings.csv}{Datos Sevilla 2022 (CSV)}
+                    \item \href{http://insideairbnb.com/sevilla}{Distribución de anuncios de alquiler turístico en la ciudad de Sevilla (Figura 3.2)}
+                \end{enumerate}
+
+            \bibitem[INE]{ine}
+                \
+                \begin{enumerate}
+                    \item \href{https://www.ine.es/jaxiT3/Datos.htm?t=50934}{Variación anual del IPC (2018 - 2022)}
+                    \item \href{https://www.ine.es/jaxiT3/Datos.htm?t=25173}{Variación anual del IPV (2018 - 2022)}
+                \end{enumerate}
 
     \end{thebibliography}
-    
+        
     \hypertarget{anexo}{}
     \section*{Anexo}
 
         \hypertarget{github}{[GitHub] \href{https://github.com/m7pantoja/TouristRental}{Repositorio de código sobre el proceso de investigación}}
 
+    \end{multicols}
+    \setlength{\columnsep}{10pt}
+
 \end{document}
-
-
 
 
 
