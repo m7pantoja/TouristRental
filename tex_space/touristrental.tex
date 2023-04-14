@@ -27,16 +27,23 @@
     \maketitle
 
     \begin{abstract}
-
+        \vspace{3mm}
         \hrule
-        \ \\
-   
-        \ \\
+        \vspace{2mm}
+        \noindent
+        El desarrollo turístico en España y en la ciudad de Sevilla ha estado en auge en las últimas décadas. Junto a él, destaca el rápido crecimiento
+        del alquiler vacacional, soportado por plataformas como \airbnb \ o \textit{Vrbo}. A pesar de esto, la obtención de datos sobre el sector 
+        no es sencilla, pero técnicas informáticas como el \webscrapping \ permiten su estudio. Así, el objetivo de este texto es presentar información
+        estadística sobre el alquiler turístico nacional y, en especial, sevillano, de manera desagregada. Los resultados muestran que la variación de los 
+        precios del sector en la ciudad de Sevilla tras la pandemia del COVID está por encima de la variación del IPC o el IPV. Este hecho junto a la posibilidad patente de investigación sobre la materia demandan la elaboración de más estudios con el fin de esclarecer un ámbito económico desinformado.
+        \vspace{2mm}
         \hrule
     \end{abstract}
+    \vspace{1mm}
 
+    \textit{\textbf{Keywords:} Alquiler turístico; Sevilla; Airbnb; Vivienda.}
+  
     \vspace{3mm}
-
     \setlength{\columnsep}{0.88cm}
     \begin{multicols}{2}
     
@@ -412,7 +419,7 @@
             la distribución: 0.2375. Es decir, la variación media de los precios del alquiler turístico entre los años 2018 y 2022 en la ciudad de Sevilla
             es de 0.2375, o 23.75\%. Esto quiere decir que el precio ha aumentado en estos inmuebles un 23.75\%, una cifra considerablemente alta.
             Si comparamos esta variación con otros indicadores como el IPC o el IPV (Índice de Precios de la Vivienda), se ve lo alta que es la subida de 
-            precios en este sector. Entre 2018 y 2022 el IPC varió un 12.16\% y el IPV un 19.46\% (véase \cite[(1) y (2)]{ine}), ambos por
+            precios en este sector. Entre 2018 y 2022 el IPC varió en Sevilla un 15.75\% y el IPV en España un 19.46\% (véase \cite[(1) y (2)]{ine}), ambos por
             debajo de la variación de precios del alquiler turístico en Sevilla.
 
         \clearpage 
@@ -421,7 +428,7 @@
 
             \begin{figure}[ht]
                 \begin{center}
-                    \includegraphics*[width = 16cm]{graphics/tipoinmueble.png}
+                    \includegraphics*[width = 17cm]{graphics/tipoinmueble.png}
                     \begin{flushright}
                         \footnotesize{Fuente: elaboración propia a partir de \cite[(1) y (2)]{datahippo} y \cite[(1)]{insideairbnb}}
                     \end{flushright}
@@ -439,7 +446,7 @@
 
             \end{figure}
 
-            \clearpage
+    \clearpage
 
     \setlength{\columnsep}{0.88cm}
     \begin{multicols}{2}
@@ -467,7 +474,7 @@
         \paragraph*{}
         En definitiva, se han cumplido y abordado todos los objetivos que fueron propuestos. Más aún, se ha ofrecido iformación adicional que ha 
         ido apareciendo a lo largo del proceso de investigación. 
-        
+     
         \paragraph*{}
         Por otra parte, el presente trabajo tiene la intención de abrir camino en un sector,
         como ya se ha dicho, poco estudiado. Este texto demuestra la posibilidad de estudiar el alquiler turístico de manera desagregada. De hecho es
@@ -481,6 +488,11 @@
         Estas propuestas no son ilusorias, pues empresas de alquiler turístico como \airbnb \ u otras son fuentes de datos lo suficientemente grandes
         como para abarcar un proyecto de tal índole. Aunque con necesidad de trabajo, los datos están ahí, esperando a ser tratados para la obtención de 
         resultados que ayuden a entender mejor este sector y a la economía en general.
+
+    \end{multicols}
+    \setlength{\columnsep}{10pt}
+
+    \clearpage
 
     \begin{thebibliography}{20}
 
@@ -504,25 +516,19 @@
             \bibitem[INE]{ine}
                 \
                 \begin{enumerate}
-                    \item \href{https://www.ine.es/jaxiT3/Datos.htm?t=50934}{Variación anual del IPC (2018 - 2022)}
-                    \item \href{https://www.ine.es/jaxiT3/Datos.htm?t=25173}{Variación anual del IPV (2018 - 2022)}
+                    \item \href{https://www.ine.es/jaxiT3/Datos.htm?t=50918}{Variación del IPC 2018 - 2022 en Sevilla}
+                    \item \href{https://www.ine.es/jaxiT3/Datos.htm?t=25173}{Variación del IPV 2018 - 2022 en España}
                 \end{enumerate}
 
     \end{thebibliography}
         
     \hypertarget{anexo}{}
     \section*{Anexo}
+        \begin{enumerate}
+            \item \hypertarget{github}{[GitHub] \href{https://github.com/m7pantoja/TouristRental}{Repositorio de código sobre el proceso de investigación}}
+            \item \href{https://recyt.fecyt.es/index.php/CyTET/article/view/86498/63858}{Estudio de referencia}
+        \end{enumerate}
 
-        \hypertarget{github}{[GitHub] \href{https://github.com/m7pantoja/TouristRental}{Repositorio de código sobre el proceso de investigación}}
 
-    \end{multicols}
-    \setlength{\columnsep}{10pt}
 
 \end{document}
-
-
-
-
-% Consideraciones: 
-% - Me he descargado el pdf, y me salen algunos enlaces enmarcados en rojo, otros en verde y otros en azul. No se si es intencionado, no es que me disguste pero que sepas que se ve así 
-% (imagino que dependerá de si son enlaces internos o externos)
