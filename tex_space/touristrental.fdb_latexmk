@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1681492486 "c:/Users/m7pan/Escritorio/Projects/Tourist_Rental/TouristRental/tex_space/touristrental.tex" "touristrental.pdf" "touristrental" 1681492492
+["pdflatex"] 1681661806 "c:/Users/m7pan/Escritorio/Projects/Tourist_Rental/TouristRental/tex_space/touristrental.tex" "touristrental.pdf" "touristrental" 1681661811
   "C:/Users/m7pan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1681471519 81088 29d6fa367ac022d1b69251d68c0742e6 ""
   "C:/Users/m7pan/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1664546246 11548 363ea0ae913bfbe2c0057047d0a715a3 ""
   "C:/Users/m7pan/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1656368066 10246961 4597a415c3c1f9b8b6a8d76e1f5e925a ""
@@ -94,7 +94,7 @@
   "C:/Users/m7pan/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1636713860 32262 2bb622a0aa56c4a7a5cbdfe9d122c15a ""
   "C:/Users/m7pan/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/m7pan/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044406800 26220 3701aebf80ccdef248c0c20dd062fea9 ""
-  "c:/Users/m7pan/Escritorio/Projects/Tourist_Rental/TouristRental/tex_space/touristrental.tex" 1681492480 42497 3681064733721015fa4476c8367574ba ""
+  "c:/Users/m7pan/Escritorio/Projects/Tourist_Rental/TouristRental/tex_space/touristrental.tex" 1681661805 43158 8cd9166cf87ca55517076aab2cdf2c16 ""
   "graphics/cap_sevilledensity_distribution_map.jpg" 1681233735 1178964 91317bd51298a4045fd90ef1d516390d ""
   "graphics/pricerelativevariation.png" 1681467243 34791 339e36344c14a7d8d8e374a69a302c77 ""
   "graphics/seville_2018_price.png" 1681492076 60185 dcc3f634d100b65e4f5caa99a346f543 ""
@@ -105,9 +105,9 @@
   "graphics/spain_2018_price.png" 1681403570 81204 778e5056976a9c8cf7521761f95aa02b ""
   "graphics/spainccaadensity.png" 1681206552 107056 1decaa38ba8e0807a057a8af81bd0019 ""
   "graphics/tipoinmueble.png" 1681415670 119508 97204e797c74e195a9645289b1cc310a ""
-  "touristrental.aux" 1681492491 4768 a23055bfddf71ffb3e0cafe7e37d2591 "pdflatex"
-  "touristrental.out" 1681492491 2118 41d45ccd2f8455418bb221d43edcea03 "pdflatex"
-  "touristrental.tex" 1681492480 42497 3681064733721015fa4476c8367574ba ""
+  "touristrental.aux" 1681661810 5168 8bfee0890a729d956d0ae1a347a5e0fc "pdflatex"
+  "touristrental.out" 1681661810 2118 41d45ccd2f8455418bb221d43edcea03 "pdflatex"
+  "touristrental.tex" 1681661805 43158 8cd9166cf87ca55517076aab2cdf2c16 ""
   (generated)
   "touristrental.aux"
   "touristrental.log"

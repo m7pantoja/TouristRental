@@ -88,7 +88,7 @@
             autónomas y en torno a la ciudad de Sevilla, según distritos. Se quiere también estudiar los diferentes tipos de 
             inmueble que se ofrecen en alquiler turístico y la distribución de los anuncios de los arrendadores, es decir, la densidad de éstos, por las áreas 
             descritas anteriormente. Por último, se busca obtener resultados sobre la evolución del sector en cuestión tras la pandemia COVID, así como 
-            comparar de que manera se ha visto afectado por esta situación frente a indicadores como el Índice de Precios al Consumo (IPC).
+            comparar de que manera se ha visto afectado por esta situación frente a indicadores como el Índice de Precios de Consumo (IPC).
        
         \clearpage
 
@@ -137,8 +137,8 @@
             \noindent
             De esta manera se han obtenido todos los datos que se han usado en el proceso de investigación del trabajo. Ahora bien, aunque con la misma técnica
             del \webscrapping, son tres las fuentes de datos de las que se han hecho uso. Por un lado, los datos de alquiler turístico ofrecidos por 
-            \airbnb \  relativos a Sevilla y a España en general de los años 2017 - 2018 se han obtenido de \cite{datahippo}. Por otro, los datos 
-            de Sevilla del año 2022 son de \cite{insideairbnb} que, a su vez, han sido complementados con otros datos resultantes de un \textit{scraping} personal.
+            \airbnb \  relativos a Sevilla y a España en general de los años 2017 - 2018 se han obtenido de \cite[(1) y (2)]{datahippo}. Por otro, los datos 
+            de Sevilla del año 2022 son de \cite[(1)]{insideairbnb} que, a su vez, han sido complementados con otros datos resultantes de un \textit{scraping} personal.
             \footnote{Los datos que ofrecía \cite{insideairbnb} eran incompletos y no los suficientemente útiles para el estudio que el autor quería hacer. Por ello,
             se llevó a cabo un \textit{scraping} para aumentar la información de los anuncios de \airbnb \ que la web citada ponía a disposición. No se 
             entrará en detalles sobre las técnicas informáticas utilizadas pero se pondrá a disposición los ficheros de datos (CSV) que se obtuvieron.} 
@@ -191,6 +191,7 @@
                         \footnotesize{Fuente: elaboración propia a partir de \cite[(1)]{datahippo}}
                     \end{flushright}
                     \caption{Distribución porcentual de la oferta del alquiler turístico en España, según comunidades autónomas}
+                    \label{spainccaadensity}
                 \end{center}
             
                 Este gráfico muestra de que manera se distribuyen los anuncios de oferta de alquiler turístico, porcentualmente,
@@ -238,6 +239,7 @@
                         \footnotesize{Fuente: elaboración propia a partir de \cite[(2)]{datahippo} y \cite[(1)]{insideairbnb}}
                     \end{flushright}
                     \caption{Distribución porcentual de la oferta del alquiler turístico en la ciudad de Sevilla, según distritos}
+                    \label{sevilledensity}
                 \end{center}
 
                 En cuanto a la distribución en la ciudad de Sevilla según distritos, se observa una clara hegemonía del Casco Antiguo 
@@ -304,12 +306,12 @@
             una caja que representa el recorrido intercuartílico de la distribución, una línea divisoria en la caja que señala la mediana y unas vallas o \textit{bigotes} que delimitan los valores adyacentes a la mediana. En caso de que los hubiera, también se representan los datos anómalos o \textit{outliers}. En este caso, se han suprimido los \textit{outliers} por la gran cantidad de datos de la distribución. A su vez, no se entrará en detalles sobre qué delimita que un valor sea considerado adyacente o no a la mediana. Por último nótese que se ha marcado la media de la distribución completa.\\
 
             \noindent
-            Entrando en materia podemos resaltar que las Islas Baleares es la comunidad con mayor mediana y cuyo rango intercuartílico se encuentra a un mayor precio, esto es el 50\% de los datos centrados en la mediana. Obsérvese que además la mediana se encuentra por delante de la media y es ligeramente superior a 100. Es decir, el 50\% de los anuncios de alquiler turístico de las Islas Baleares tienen un precio superior a 100€. Por otro lado, véase que las ciudades autónomas Ceuta y Melilla así como las Islas Canarias, Murcia, La Rioja e incluso la Comunidad de Madrid situán la mayoría de sus anuncios por debajo de la media nacional. 
+            Entrando en materia podemos resaltar que Islas Baleares es la comunidad con mayor mediana y cuyo rango intercuartílico se encuentra a un mayor precio, esto es el 50\% de los datos centrados en la mediana. Obsérvese que además la mediana se encuentra por delante de la media y es ligeramente superior a 100. Es decir, el 50\% de los anuncios de alquiler turístico de las Islas Baleares tienen un precio superior a 100€. Por otro lado, véase que las ciudades autónomas Ceuta y Melilla así como las Islas Canarias, Murcia, La Rioja e incluso la Comunidad de Madrid situán la mayoría de sus anuncios por debajo de la media nacional. 
                 
             \clearpage
 
             \noindent
-            Debe tenerse en cuenta la densidad de los datos, pues, por ejemplo, la Comunidad de Madrid cuenta con un gran número de anuncios de alquiler, tanto de alto como de bajo precio, lo que hace que su distribución se vea afectada, mientras que comunidades como Navarra que cuentan con muy pocos anuncios (véase [***]) pueden tener una distribución con precios más elevados debido a la presencia de tan solo un reducido número de datos con valores altos.
+            Debe tenerse en cuenta la densidad de los datos, pues, por ejemplo, la Comunidad de Madrid cuenta con un gran número de anuncios de alquiler, tanto de alto como de bajo precio, lo que hace que su distribución se vea afectada, mientras que comunidades como Navarra que cuentan con muy pocos anuncios (véase \ref{spainccaadensity}) pueden tener una distribución con precios más elevados debido a la presencia de tan solo un reducido número de datos con valores altos.
             Hablando de Andalucía, puede verse que la mayoría de sus datos se encuentran por debajo de la media nacional pero que también tiene un buen
             número de anuncios que sobrepasan este límite. 
             Por último destacan Navarra, el País Vasco, Cataluña y sobre todo las Islas Baleares como las comunidades que tienen anuncios con precios más elevados. En el caso de Baleares, existen datos, es decir, anuncios, que sobrepasan los 300€ por noche, y esto sin considerar los \textit{outliers}. \\
@@ -329,7 +331,8 @@
                 Exceptuando el Casco Antiguo, Nervión, Triana y el distrito Sur, el resto de distritos tienen su rango intercuartílico de 
                 anuncios prácticamente por debajo de la media general. Este es un dato que muestra lo dispar que pueden ser los precios
                 en la ciudad de Sevilla según los distritos. También, como en el anterior caso, se debe tener en cuenta la densidad de anuncios
-                de cada zona (véase [***]). Por otro lugar, sin dudas el Casco Antiguo es el distrito líder en precios. Aun siendo el distrito con 
+                de cada zona (véase \ref{sevilledensity}). 
+                Por otro lugar, sin dudas el Casco Antiguo es el distrito líder en precios. Aun siendo el distrito con 
                 mayor densidad, también es el que presenta no solo un mayor conjunto de datos con elevado precio sino además el máximo rango de precios de 
                 ciudad. Sus \textit{bigotes} informan de anuncios en el distrito desde precios muy bajos hasta los más altos de la ciudad. 
                 A esta zona le sigue Nervión, que aun tiendo bastantes anuncios por encima de la media, sitúa su mediana en un precio bastante económico.
@@ -462,7 +465,7 @@
         Por un lado se ha estudiado la distribución de la oferta del alquiler 
         turístico, donde se ha constatado que Andalucía y Cataluña en España y el Casco Antiguo en Sevilla son los territorios con mayor porcentaje
         de anuncios. Además se ha estudiado como ha variado esta distribución tras la pandemia en Sevilla y se ha visto el aumento del predominio del 
-        Casco Antiuo como principal zona ofertante. Asimismo, se ha visto qu elas provincias de Barcelona y Madrid destacan como líderes en oferta de alquiler turístico. Posteriormente, se han analizado los precios de los anuncios por distritos en la ciudad de Sevilla y por comunidades autónomas en España.
+        Casco Antiguo como principal zona ofertante. Asimismo, se ha visto que las provincias de Barcelona y Madrid destacan como líderes en oferta de alquiler turístico. Posteriormente, se han analizado los precios de los anuncios por distritos en la ciudad de Sevilla y por comunidades autónomas en España.
         Las Islas Baleares han resultado la comunidad autónoma con mayores precio de alquiler turístico, al igual que el Casco Antiguo en Sevilla, que 
         vuelve a destacar. Se llegó entonces a la parte más importante y valiosa de la investigación: la comparación de los precios del alquiler turístico
         de la ciudad de Sevilla entre los años 2018 y 2022. Se arrojaron entonces resultados sorprendentes, como el cambio de papel que experimentó el distrito 
@@ -472,7 +475,7 @@
         en el sector y el predominio del inmueble completo. 
 
         \paragraph*{}
-        En definitiva, se han cumplido y abordado todos los objetivos que fueron propuestos. Más aún, se ha ofrecido iformación adicional que ha 
+        En definitiva, se han cumplido y abordado todos los objetivos que fueron propuestos. Más aún, se ha ofrecido información adicional que ha 
         ido apareciendo a lo largo del proceso de investigación. 
      
         \paragraph*{}
@@ -499,25 +502,25 @@
             \bibitem[DataHippo]{datahippo} 
                 \ 
                 \begin{enumerate}
-                    \item \href{https://datahippo.org/es/region/599216cb8a4655339b819813/}{Datos España 2017 - 2018}
-                    \item \href{https://datahippo.org/es/region/599230af8a46554edf884651/}{Datos Sevilla 2017 - 2018}
-                    \item \href{https://datahippo.org/media/regions/58612732-b2dc-433b-ab78-b8fbe5bbbb16/599216cb8a4655339b819813_airbnb.csv}{Datos España 2017 - 2018 (CSV)}
-                    \item \href{https://datahippo.org/media/regions/7e3f7365-8ec0-42f1-a277-9b82743b8a39/599230af8a46554edf884651_airbnb.csv}{Datos Sevilla 2017 - 2018 (CSV)}
+                    \item \href{https://datahippo.org/es/region/599216cb8a4655339b819813/}{Datos España (2017 - 2018)}
+                    \item \href{https://datahippo.org/es/region/599230af8a46554edf884651/}{Datos Sevilla (2017 - 2018)}
+                    \item \href{https://datahippo.org/media/regions/58612732-b2dc-433b-ab78-b8fbe5bbbb16/599216cb8a4655339b819813_airbnb.csv}{Datos España (2017 - 2018). (CSV)}
+                    \item \href{https://datahippo.org/media/regions/7e3f7365-8ec0-42f1-a277-9b82743b8a39/599230af8a46554edf884651_airbnb.csv}{Datos Sevilla (2017 - 2018). (CSV)}
                 \end{enumerate}
             
             \bibitem[InsideAirbnb]{insideairbnb}
                 \
                 \begin{enumerate}
-                    \item \href{http://insideairbnb.com/get-the-data/}{Datos Sevilla 2022}
-                    \item \href{http://data.insideairbnb.com/spain/andaluc%C3%ADa/sevilla/2023-03-31/visualisations/listings.csv}{Datos Sevilla 2022 (CSV)}
-                    \item \href{http://insideairbnb.com/sevilla}{Distribución de anuncios de alquiler turístico en la ciudad de Sevilla (Figura 3.2)}
+                    \item \href{http://insideairbnb.com/get-the-data/}{Datos Sevilla (2022)}
+                    \item \href{http://data.insideairbnb.com/spain/andaluc%C3%ADa/sevilla/2023-03-31/visualisations/listings.csv}{Datos Sevilla (2022). (CSV)}
+                    \item \href{http://insideairbnb.com/sevilla}{Distribución de anuncios de alquiler turístico en la ciudad de Sevilla. (Figura 3.2)}
                 \end{enumerate}
 
             \bibitem[INE]{ine}
                 \
                 \begin{enumerate}
-                    \item \href{https://www.ine.es/jaxiT3/Datos.htm?t=50918}{Variación del IPC 2018 - 2022 en Sevilla}
-                    \item \href{https://www.ine.es/jaxiT3/Datos.htm?t=25173}{Variación del IPV 2018 - 2022 en España}
+                    \item \href{https://www.ine.es/jaxiT3/Tabla.htm?t=50918&L=0}{INE. Indice de Precios de Consumo. Base 2021. Índices provinciales: general y de grupos ECOICOP. (2018-2022)}
+                    \item \href{https://www.ine.es/jaxiT3/Tabla.htm?t=25173}{INE. Índice de Precios de Vivienda. Medias anuales. Índices por CCAA: general, vivienda nueva y de segunda mano. (2018-2022)}
                 \end{enumerate}
 
     \end{thebibliography}
@@ -526,9 +529,13 @@
     \section*{Anexo}
         \begin{enumerate}
             \item \hypertarget{github}{[GitHub] \href{https://github.com/m7pantoja/TouristRental}{Repositorio de código sobre el proceso de investigación}}
-            \item \href{https://recyt.fecyt.es/index.php/CyTET/article/view/86498/63858}{Estudio de referencia}
+            \item Estudio de referencia: \href{https://recyt.fecyt.es/index.php/CyTET/article/view/86498/63858}{Jaime Jover-Báez \&
+            Luis Berraquero-Díaz. (2020). ¿Habitantes o visitantes? El impacto del alquiler vacacional en el mercado de vivienda en Sevilla. 
+            Centro de Estudios de Posgrado, City University of New York \& Grupo de Investigación Social y Acción Participativa, Universidad Pablo de Olavide}
         \end{enumerate}
 
 
 
 \end{document}
+
+

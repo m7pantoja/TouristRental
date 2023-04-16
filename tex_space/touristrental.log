@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.28)  14 APR 2023 19:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.28)  16 APR 2023 18:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -441,38 +441,38 @@ File: graphics/spainccaadensity.png Graphic file (type png)
 Package pdftex.def Info: graphics/spainccaadensity.png  used on input line 189.
 (pdftex.def)             Requested size: 369.88582pt x 289.89134pt.
 
-Overfull \hbox (24.84575pt too wide) in paragraph at lines 207--223
+Overfull \hbox (24.84575pt too wide) in paragraph at lines 208--224
  [] 
  []
 
 <graphics/sevilledensity.png, id=87, 1436.7276pt x 576.7146pt>
 File: graphics/sevilledensity.png Graphic file (type png)
 <use graphics/sevilledensity.png>
-Package pdftex.def Info: graphics/sevilledensity.png  used on input line 236.
+Package pdftex.def Info: graphics/sevilledensity.png  used on input line 237.
 (pdftex.def)             Requested size: 483.69684pt x 194.15317pt.
 [3 <./graphics/spainccaadensity.png>] [4 <./graphics/sevilledensity.png>]
 <graphics/sevilledensity_map.jpeg, id=109, 879.285pt x 717.43031pt>
 File: graphics/sevilledensity_map.jpeg Graphic file (type jpg)
 <use graphics/sevilledensity_map.jpeg>
-Package pdftex.def Info: graphics/sevilledensity_map.jpeg  used on input line 255.
+Package pdftex.def Info: graphics/sevilledensity_map.jpeg  used on input line 257.
 (pdftex.def)             Requested size: 241.83766pt x 229.89986pt.
 <graphics/cap_sevilledensity_distribution_map.jpg, id=111, 611.01pt x 569.06308pt>
 File: graphics/cap_sevilledensity_distribution_map.jpg Graphic file (type jpg)
 <use graphics/cap_sevilledensity_distribution_map.jpg>
-Package pdftex.def Info: graphics/cap_sevilledensity_distribution_map.jpg  used on input line 261.
+Package pdftex.def Info: graphics/cap_sevilledensity_distribution_map.jpg  used on input line 263.
 (pdftex.def)             Requested size: 244.39966pt x 227.6212pt.
 
-Overfull \hbox (2.55124pt too wide) in paragraph at lines 261--262
+Overfull \hbox (2.55124pt too wide) in paragraph at lines 263--264
 [][] 
  []
 
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 254--266
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 256--268
 [][] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 275--281
+Underfull \hbox (badness 10000) in paragraph at lines 277--283
 
  []
 
@@ -482,56 +482,56 @@ Underfull \hbox (badness 10000) in paragraph at lines 275--281
 <graphics/spain_2018_price.png, id=118, 766.062pt x 625.8582pt>
 File: graphics/spain_2018_price.png Graphic file (type png)
 <use graphics/spain_2018_price.png>
-Package pdftex.def Info: graphics/spain_2018_price.png  used on input line 295.
+Package pdftex.def Info: graphics/spain_2018_price.png  used on input line 297.
 (pdftex.def)             Requested size: 426.79134pt x 348.69238pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--305
+Underfull \hbox (badness 10000) in paragraph at lines 305--307
 
  []
 
 [6
 
  <./graphics/spain_2018_price.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 311--316
+Underfull \hbox (badness 10000) in paragraph at lines 313--318
 
  []
 
-<graphics/seville_2018_price.png, id=129, 771.8436pt x 625.8582pt>
+<graphics/seville_2018_price.png, id=130, 771.8436pt x 625.8582pt>
 File: graphics/seville_2018_price.png Graphic file (type png)
 <use graphics/seville_2018_price.png>
-Package pdftex.def Info: graphics/seville_2018_price.png  used on input line 319.
+Package pdftex.def Info: graphics/seville_2018_price.png  used on input line 321.
 (pdftex.def)             Requested size: 369.88582pt x 299.93103pt.
 [7
 
  <./graphics/seville_2018_price.png>]
-<graphics/seville_comparison_price.png, id=140, 771.8436pt x 654.0435pt>
+<graphics/seville_comparison_price.png, id=142, 771.8436pt x 654.0435pt>
 File: graphics/seville_comparison_price.png Graphic file (type png)
 <use graphics/seville_comparison_price.png>
-Package pdftex.def Info: graphics/seville_comparison_price.png  used on input line 346.
+Package pdftex.def Info: graphics/seville_comparison_price.png  used on input line 349.
 (pdftex.def)             Requested size: 426.79134pt x 361.66113pt.
  [8 <./graphics/seville_comparison_price.png>]
-<graphics/seville_global_comparison_price.png, id=151, 529.7391pt x 737.154pt>
+<graphics/seville_global_comparison_price.png, id=153, 529.7391pt x 737.154pt>
 File: graphics/seville_global_comparison_price.png Graphic file (type png)
 <use graphics/seville_global_comparison_price.png>
-Package pdftex.def Info: graphics/seville_global_comparison_price.png  used on input line 376.
+Package pdftex.def Info: graphics/seville_global_comparison_price.png  used on input line 379.
 (pdftex.def)             Requested size: 170.71652pt x 237.5588pt.
-<graphics/pricerelativevariation.png, id=155, 570.933pt x 425.6703pt>
+<graphics/pricerelativevariation.png, id=157, 570.933pt x 425.6703pt>
 File: graphics/pricerelativevariation.png Graphic file (type png)
 <use graphics/pricerelativevariation.png>
-Package pdftex.def Info: graphics/pricerelativevariation.png  used on input line 394.
+Package pdftex.def Info: graphics/pricerelativevariation.png  used on input line 397.
 (pdftex.def)             Requested size: 256.0748pt x 190.92632pt.
 
-Overfull \hbox (14.22638pt too wide) in paragraph at lines 394--395
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 397--398
  []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 412--413
+Underfull \hbox (badness 10000) in paragraph at lines 415--416
 
  []
 
 
-Underfull \hbox (badness 1242) in paragraph at lines 414--424
+Underfull \hbox (badness 1242) in paragraph at lines 417--427
 \OT1/cmr/m/n/10 se-lec-cio-na-do las coin-ci-den-cias, se han des-car-ta-do
  []
 
@@ -539,10 +539,10 @@ Underfull \hbox (badness 1242) in paragraph at lines 414--424
 
 
  <./graphics/seville_global_comparison_price.png> <./graphics/pricerelativevariation.png>]
-<graphics/tipoinmueble.png, id=174, 1438.173pt x 638.8668pt>
+<graphics/tipoinmueble.png, id=176, 1438.173pt x 638.8668pt>
 File: graphics/tipoinmueble.png Graphic file (type png)
 <use graphics/tipoinmueble.png>
-Package pdftex.def Info: graphics/tipoinmueble.png  used on input line 431.
+Package pdftex.def Info: graphics/tipoinmueble.png  used on input line 434.
 (pdftex.def)             Requested size: 483.69684pt x 214.86249pt.
  [10
 
@@ -558,17 +558,17 @@ Package rerunfilecheck Info: File `touristrental.out' has not changed.
 (rerunfilecheck)             Checksum: 41D45CCD2F8455418BB221D43EDCEA03;2118.
  ) 
 Here is how much of TeX's memory you used:
- 12176 strings out of 478582
- 206168 string characters out of 2844344
- 613824 words of memory out of 3000000
- 30138 multiletter control sequences out of 15000+600000
+ 12178 strings out of 478582
+ 206202 string characters out of 2844344
+ 614094 words of memory out of 3000000
+ 30140 multiletter control sequences out of 15000+600000
  475858 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,9n,77p,764b,502s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 68i,9n,77p,760b,504s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\m7pan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb><C:/Users/m7pan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on touristrental.pdf (12 pages, 2163273 bytes).
+Output written on touristrental.pdf (12 pages, 2165788 bytes).
 PDF statistics:
- 303 PDF objects out of 1000 (max. 8388607)
+ 310 PDF objects out of 1000 (max. 8388607)
  73 named destinations out of 1000 (max. 500000)
  163 words of extra memory for PDF output out of 10000 (max. 10000000)
 
